@@ -1,0 +1,64 @@
+.films {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    /* grid-template-columns: 1fr 2fr; */
+    margin-top: 40px;
+    grid-gap: 20px;
+}
+
+.film{
+    width: 137px;
+    height: 170px;
+    border-radius: 8px;
+    background: #232323;
+    margin: 24px 40px 0px 0px;
+  }
+  
+  .inline-cont{
+    display: flex;
+    margin: 0px 94px;
+  }
+  
+  .name{
+    padding: 3px 0px 0px 8px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 8px;
+    font-weight: 500;
+    margin: 0px;
+  }
+  
+  .rate{
+    width: auto;
+    height: auto;
+    display: flex;
+    margin: 5px 8px;
+  }
+  
+  .rating{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 5px;
+    font-weight: 500;
+    margin: 0;
+  }
+  
+  .rate-rect{
+    width: 14px;
+    height: 7px;
+    border-radius: 2px;
+    background: #FFF965;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 5px;
+    font-weight: 500;
+  }
+  
+  .descr{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 5px;
+    font-weight: 500;
+    margin: 6px 8px;
+  }
